@@ -35,6 +35,7 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\uri\uri.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\uri\uri_builder.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\uri\uri_parser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\utilities\asyncrt_mem.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\utilities\asyncrt_utils.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\utilities\base64.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)..\utilities\web_utilities.cpp" />
@@ -46,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\cpprest\astreambuf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\cpprest\asyncrt_mem.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\cpprest\asyncrt_utils.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\cpprest\base_uri.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\cpprest\containerstream.h" />
@@ -84,7 +86,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\pplx\pplxinterface.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\pplx\pplxtasks.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\http\client\http_client_impl.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\http\common\internal_http_helpers.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)..\pch\stdafx.h" />
   </ItemGroup>
   <ItemGroup>

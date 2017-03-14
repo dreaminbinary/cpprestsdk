@@ -70,6 +70,9 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)..\http\client\http_client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\utilities\asyncrt_mem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
@@ -215,7 +218,9 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)..\http\client\http_client_impl.h">
       <Filter>Header Files\private</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)..\http\common\internal_http_helpers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\include\cpprest\asyncrt_mem.h">
+      <Filter>Header Files\cpprest</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)..\..\include\cpprest\details\http_constants.dat">
